@@ -1,0 +1,14 @@
+name: DeckedOut
+version: ${project.version}
+main: com.dmf444.deckedout.DeckedOut
+prefix: DeckedOut
+load: STARTUP
+api-version: 1.13
+authors: [dmf444]
+description: A plugin to manage multiplayer Decked Out games
+
+commands:
+  createset:
+    description: Creates a new artifact set for decked out
+    usage: /createset set_name
+    permission: deckedout.createset
